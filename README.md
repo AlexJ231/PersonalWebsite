@@ -1,4 +1,4 @@
-# FRACTAL//STUDIO — Portfolio
+# Yulin Jiang (Alex) — Portfolio
 
 Personal portfolio site for game design, 3D modeling, texturing, and sound design work.
 

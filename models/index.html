@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>All 3D + Textures — Yulin Jiang (Alex)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Archivo+Black&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <a href="../index.html" class="nav__brand">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="2"/><line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>
+    <span>YULIN JIANG</span>
+  </a>
+  <nav class="nav__links">
+    <a href="../index.html#work">[01] WORK</a>
+    <a href="../index.html#models">[02] 3D</a>
+    <a href="../index.html#sound">[03] SOUND</a>
+    <a href="../index.html#about">[04] ABOUT</a>
+  </nav>
+  <div class="nav__status"><span class="dot"></span><span class="status-text">SIGNAL_LIVE</span></div>
+</header>
+
+<section class="subpage-hero section--dark">
+  <a href="../index.html#models" class="back-link">
+    <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    BACK_TO_HOME
+  </a>
+  <h1>3D<br/><span class="outline">+ TEXTURES</span></h1>
+  <p>High-poly sculpts, retopologized hero assets, hand-painted PBR materials. Built in Blender, ZBrush, Substance.</p>
+</section>
+
+<section class="section section--dark" style="padding-top:0">
+  <div class="models">
+
+    <a href="mk-iv-carbine.html" class="model">
+      <div class="model__art" data-art="rifle">
+        <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid meet">
+          <defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#C6FF00"/><stop offset="1" stop-color="#00E5FF"/></linearGradient></defs>
+          <rect x="40" y="80" width="220" height="40" fill="url(#g1)"/>
+          <rect x="40" y="80" width="220" height="40" fill="none" stroke="#0a0a0a" stroke-width="2"/>
+          <rect x="60" y="60" width="40" height="20" fill="#0a0a0a"/>
+          <rect x="200" y="120" width="30" height="40" fill="#0a0a0a"/>
+          <circle cx="240" cy="100" r="8" fill="#0a0a0a"/>
+        </svg>
+      </div>
+      <figcaption>
+        <span class="model__tag">HERO_ASSET</span>
+        <h3>MK-IV CARBINE</h3>
+        <p>24k tris · 4K PBR · 6 material variants</p>
+      </figcaption>
+    </a>
+
+    <a href="recon-helm.html" class="model">
+      <div class="model__art" data-art="helm">
+        <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid meet">
+          <path d="M60 160 Q 60 40, 150 40 Q 240 40, 240 160 Z" fill="#FF1F8F"/>
+          <path d="M60 160 Q 60 40, 150 40 Q 240 40, 240 160 Z" fill="none" stroke="#0a0a0a" stroke-width="3"/>
+          <rect x="80" y="100" width="140" height="20" fill="#0a0a0a"/>
+          <circle cx="115" cy="110" r="4" fill="#C6FF00"/>
+          <circle cx="185" cy="110" r="4" fill="#C6FF00"/>
+        </svg>
+      </div>
+      <figcaption>
+        <span class="model__tag">CHARACTER</span>
+        <h3>RECON HELM_07</h3>
+        <p>18k tris · displacement + emissive</p>
+      </figcaption>
+    </a>
+
+    <a href="outpost-delta.html" class="model">
+      <div class="model__art" data-art="env">
+        <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid meet">
+          <rect x="0" y="120" width="300" height="80" fill="#C6FF00" opacity=".25"/>
+          <polygon points="20,120 60,60 100,120" fill="#0a0a0a"/>
+          <polygon points="80,120 130,40 180,120" fill="#0a0a0a" opacity=".7"/>
+          <polygon points="170,120 220,70 270,120" fill="#0a0a0a" opacity=".5"/>
+          <circle cx="240" cy="50" r="20" fill="#FF1F8F"/>
+          <line x1="0" y1="120" x2="300" y2="120" stroke="#0a0a0a" stroke-width="2"/>
+        </svg>
+      </div>
+      <figcaption>
+        <span class="model__tag">ENVIRONMENT</span>
+        <h3>OUTPOST DELTA</h3>
+        <p>modular kit · 42 pieces · trim sheets</p>
+      </figcaption>
+    </a>
+
+    <a href="cargo-crate.html" class="model">
+      <div class="model__art" data-art="prop">
+        <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid meet">
+          <rect x="100" y="50" width="100" height="120" fill="#00E5FF"/>
+          <rect x="100" y="50" width="100" height="120" fill="none" stroke="#0a0a0a" stroke-width="3"/>
+          <rect x="115" y="65" width="70" height="14" fill="#0a0a0a"/>
+          <rect x="115" y="85" width="70" height="14" fill="#0a0a0a" opacity=".6"/>
+          <rect x="115" y="105" width="70" height="14" fill="#0a0a0a" opacity=".4"/>
+          <circle cx="150" cy="150" r="6" fill="#FF1F8F"/>
+          <circle cx="170" cy="150" r="6" fill="#C6FF00"/>
+        </svg>
+      </div>
+      <figcaption>
+        <span class="model__tag">PROP</span>
+        <h3>CARGO_CRATE_03</h3>
+        <p>4k tris · stenciled decals</p>
+      </figcaption>
+    </a>
+
+    <a href="concrete-m07.html" class="model">
+      <div class="model__art" data-art="texture">
+        <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid meet">
+          <defs><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#0a0a0a" stroke-width="3"/></pattern></defs>
+          <rect x="30" y="20" width="240" height="160" fill="#C6FF00"/>
+          <rect x="30" y="20" width="240" height="160" fill="url(#hatch)" opacity=".4"/>
+          <rect x="30" y="20" width="240" height="160" fill="none" stroke="#0a0a0a" stroke-width="3"/>
+          <text x="150" y="115" text-anchor="middle" font-family="Archivo Black" font-size="42" fill="#0a0a0a">M_07</text>
+        </svg>
+      </div>
+      <figcaption>
+        <span class="model__tag">MATERIAL</span>
+        <h3>CONCRETE_M07</h3>
+        <p>tileable · 4K · PBR + height</p>
+      </figcaption>
+    </a>
+
+    <a href="operative-k.html" class="model">
+      <div class="model__art" data-art="char">
+        <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid meet">
+          <circle cx="150" cy="80" r="40" fill="#FF1F8F"/>
+          <rect x="120" y="115" width="60" height="65" fill="#FF1F8F"/>
+          <rect x="120" y="115" width="60" height="65" fill="none" stroke="#0a0a0a" stroke-width="3"/>
+          <circle cx="150" cy="80" r="40" fill="none" stroke="#0a0a0a" stroke-width="3"/>
+          <rect x="135" y="70" width="30" height="6" fill="#0a0a0a"/>
+        </svg>
+      </div>
+      <figcaption>
+        <span class="model__tag">CHARACTER</span>
+        <h3>OPERATIVE_K</h3>
+        <p>full body · rigged · 4 outfits</p>
+      </figcaption>
+    </a>
+
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="foot__top">
+    <h3 class="foot__big">YULIN JIANG (ALEX)</h3>
+    <div class="foot__links"><a href="#">ARTSTATION</a><a href="#">GITHUB</a><a href="#">SOUNDCLOUD</a><a href="#">ITCH.IO</a></div>
+  </div>
+  <div class="foot__bot">
+    <span>© 2026 YULIN JIANG — ALL ASSETS HAND-MADE</span>
+    <span>BUILD 4.27.26</span>
+    <span>NO COOKIES // NO TRACKERS</span>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>

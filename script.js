@@ -1,4 +1,4 @@
-/* FRACTAL//STUDIO — micro-interactions */
+/* Yulin Jiang (Alex) — micro-interactions */
 
 (() => {
   // (CSS spin animation handles the decal motion — no JS parallax needed)
@@ -33,18 +33,7 @@
     });
   });
 
-  // ── live status string in header ───────────────────────
-  const status = document.querySelector('.status-text');
-  if (status) {
-    const states = ['SIGNAL_LIVE', 'TRANSMITTING', 'CHANNEL_07', 'UPLINK_OK'];
-    let i = 0;
-    setInterval(() => {
-      i = (i + 1) % states.length;
-      status.textContent = states[i];
-    }, 2600);
-  }
-
-  // ── tilt on work tiles ─────────────────────────────────
+// ── tilt on work tiles ─────────────────────────────────
   document.querySelectorAll('.work').forEach(tile => {
     const media = tile.querySelector('.work__media');
     if (!media) return;
